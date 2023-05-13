@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.tip{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.tip .tip_container{
+    border: 1px solid black;
+    width: 20%;
+    padding: 10px;
+}
+
+.tip .tip_container h2{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.tip .tip_container .inputs{
+    margin-top: 20px;
+}
+
+.tip .tip_container .inputs input{
+    width: 100%;
+    padding: 5px;
+    outline: none;
+}
+
+.tip .tip_container .inputs p{
+    margin-bottom: 10px;
+    color: red;
+    font-size: 13px;
+}
+
+.tip .tip_container .result{
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.tip .tip_container .btn{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.tip .tip_container .btn input{
+    padding: 5px;
+    width: 100px;
+}
+
+
+.tip .tip_container .btn input[type="button"]{
+    background: dodgerblue;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+.tip .tip_container .btn input[type="submit"]{
+    background: green;
+    color: #fff;
+    border: none;
+    outline: none;
+}
+
+
+.tip .saved_tips{
+    width: 40%;
+    margin-left: 30px;
+}
+
+.tip .saved_tips h2{
+    margin-bottom: 20px;
+}
+
+.tip .saved_tips table{
+    width: 100%;
+    font-size: 13px;
+}
+
+.tip .saved_tips table thead{
+    font-weight: 900;
+    padding: 89px !important;
+}
+
+.tip .saved_tips table thead td{
+    padding: 5px;
+}
+
+.tip .saved_tips .total{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+
+
+
+@media  screen and (max-width: 800px) {
+    .tip .tip_container{
+        width: 90%;
+    }
+
+    .tip .saved_tips{
+        width: 90%;
+        margin-top: 40px;
+    }
+}
+
