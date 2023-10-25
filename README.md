@@ -1,4 +1,4 @@
-### contact me 
+### Contact me 
 Email: bonanekabene67@gmail.com
 phone: +256 0756878071
 linkIn: bonane kabene
