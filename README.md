@@ -1,6 +1,6 @@
 ### Contact me 
 Email: bonanekabene67@gmail.com
-phone: +256 0756878071
+phone: +256 0744017688
 linkIn: bonane kabene
 facebook: bonane kabene
 
@@ -21,7 +21,7 @@ calculating tips of workers per clients
            
            
 ### how to run the application
-    the tip calculator is a php based application that uses MySQL 
+    the tip calculator is a php based application that uses MySQL to store data
     
     Steps in running 
        1. put the downloaded folder in htdocs(xamp server) or www(wamp).
